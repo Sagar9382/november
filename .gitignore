@@ -1,0 +1,42 @@
+# ==========================================
+# Terraform Files
+# ==========================================
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files (Inmein sensitive data hota hai)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Variable files (Passwords aur API keys bachane ke liye)
+*.tfvars
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plan files
+*.tfplan
+tfplan
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# ==========================================
+# VS Code Files
+# ==========================================
+
+# VS Code ki local settings aur workspace files
+.vscode/*
+!.vscode/extensions.json
+.history/
+*.code-workspace
